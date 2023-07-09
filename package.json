@@ -1,15 +1,15 @@
 {
   "name": "remove-others-console-loader",
-  "version": "0.0.2",
+  "version": "0.0.5",
   "homepage": "https://github.com/mmdctjj/remove-others-console-loader",
   "description": "Automatically remove console statements from other developers and only retain their own",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "rollup --config"
   },
   "keywords": [],
   "module": "src/index.js",
-  "type": "module",
+  "type": "commonjs",
   "author": "",
   "license": "ISC",
   "devDependencies": {

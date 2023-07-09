@@ -4,7 +4,7 @@ const os = require('os');
 const userName = childProcess.execSync(`git config user.name`, { encoding: 'utf-8' })
 const isWin = os.type() === 'Windows_NT'
 
-exports.default = function (code) {
+module.exports = function (code) {
   const id = this.resourcePath
 
   const findStr = isWin ? 'findstr' : 'grep'
