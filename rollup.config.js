@@ -1,4 +1,4 @@
-export default {
+exports.default = {
   input: 'src/index.js', // 入口文件路径
   output: {
     file: 'dist/index.js', // 输出文件路径

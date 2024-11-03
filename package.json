@@ -1,6 +1,6 @@
 {
   "name": "remove-others-console-loader",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "homepage": "https://github.com/mmdctjj/remove-others-console-loader",
   "description": "Automatically remove console statements from other developers and only retain their own",
   "main": "dist/index.js",
